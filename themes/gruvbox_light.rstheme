@@ -179,10 +179,10 @@ body {
 .ace_marker-layer .ace_find_line {
   position: absolute;
   z-index: -1;
-  background-color: #535147;
+  background-color: #d5c4a1;
 }
 .ace_console_error {
-  background-color: #535147;
+  background-color: #d5c4a1;
 }
 .terminal {
   background-color: #fbf1c7;

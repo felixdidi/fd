@@ -1,5 +1,22 @@
+# setting the theme to my custom gruvbox light theme
+
 light <- function() {
-  rstudioapi::addTheme("https://raw.githubusercontent.com/felixdidi/fd/master/themes/gruvbox_light.rstheme",
-                       apply=TRUE,
-                       force=TRUE)
+
+  # check if theme is already installed
+  check <- try(rstudioapi::applyTheme("Gruvbox Light Custom"), silent = TRUE)
+
+  if(class(check) == "try-error") {
+
+    print("The theme is not installed, trying to install the Theme...")
+
+    rstudioapi::addTheme("themes/gruvbox_light.rstheme",
+                         apply=TRUE,
+                         force=TRUE)
+
+    print("Installed and switched to Felix' custom Gruvbox Light Theme")
+  }
+
+  else {
+    print("Switched to Felix' custom Gruvbox Light Theme")
+  }
 }
