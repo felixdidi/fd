@@ -1,10 +1,7 @@
 Package: fd
 Type: Package
 Title: My Personal R Functions
-Version: 0.1.0
+Version: 0.1.1
 Author: Felix Dietrich
-Maintainer: Felix Dietrich
 Description: No description
-License: CC0
 Encoding: UTF-8
-LazyData: true
