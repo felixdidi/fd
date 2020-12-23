@@ -9,7 +9,7 @@ light <- function() {
 
     print("The theme is not installed, trying to install the Theme...")
 
-    rstudioapi::addTheme("themes/gruvbox_light.rstheme",
+    rstudioapi::addTheme(system.file("themes", "gruvbox_light.rstheme", package = "fd"),
                          apply=TRUE,
                          force=TRUE)
 
