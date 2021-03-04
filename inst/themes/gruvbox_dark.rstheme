@@ -9,6 +9,14 @@ img {
   filter: grayscale(100%) sepia(100%) hue-rotate(330deg) saturate(500%) brightness(.7) !important;
 }
 
+.rstudio-themes-flat .rstudio-themes-dark .GCHYANPCCV img {
+filter: grayscale(100%) sepia(100%) hue-rotate(330deg) saturate(500%) brightness(400%) !important;
+}
+
+.GCHYANPCGK img {
+filter: none !important;
+}
+
 .GGBOEFPDC-B {
     filter: grayscale(100%) sepia(100%) hue-rotate(330deg) saturate(500%) brightness(.7) !important;
 }
