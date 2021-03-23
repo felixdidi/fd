@@ -5,6 +5,10 @@ body {
   font-family: Lucida Grande !important;
 }
 
+.pm-proportional-font {
+  font-family: "Garbata", serif !important;
+}
+
 .ace_gutter {
   background: #ededed;
   color: #282828;
