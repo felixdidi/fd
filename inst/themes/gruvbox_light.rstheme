@@ -61,7 +61,7 @@ body {
 
 .ace_fold {
   background-color: #9d0006;
-  border-color: rgba(253, 244, 193, 0.67);
+  border-color: #282828;
 }
 
 .ace_invisible {
@@ -110,7 +110,7 @@ body {
 }
 
 .ace_support.ace_type {
-  color: rgba(253, 244, 193, 0.67);
+  color: #282828;
 
 }
 
@@ -137,12 +137,12 @@ body {
 }
 
 .ace_variable {
-  color: #fdf4c1;
+  color: #282828;
 
 }
 
 .ace_variable.ace_language {
-  color: #fdf4c1;
+  color: #282828;
 
 }
 
