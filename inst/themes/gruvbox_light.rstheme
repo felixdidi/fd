@@ -27,6 +27,8 @@ body {
 
 .ace_cursor {
   color: #282828;
+  border: none !important;
+  background: rgba(40, 40, 40, .4);
 }
 
 .ace_marker-layer .ace_selection {

@@ -55,6 +55,8 @@ filter: none !important;
 
 .ace_cursor {
   color: #fcf9e3;
+  border: none !important;
+  background: rgba(230, 212, 163, .4);
 }
 
 .ace_marker-layer .ace_selection {
