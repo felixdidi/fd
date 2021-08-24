@@ -1,0 +1,8 @@
+to create a github access token, use the function
+
+usethis::create_github_token()
+
+to register the token, use the function
+
+gitcreds::gitcreds::set()
+
