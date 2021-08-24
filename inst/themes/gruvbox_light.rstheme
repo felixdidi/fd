@@ -1,14 +1,6 @@
 /* rs-theme-name: Gruvbox Light Custom */
 /* rs-theme-is-dark: FALSE */
 
-body {
-  font-family: Lucida Grande !important;
-}
-
-.pm-proportional-font {
-  font-family: "Garbata", serif !important;
-}
-
 .ace_gutter {
   background: #ededed;
   color: #282828;
@@ -26,9 +18,7 @@ body {
 }
 
 .ace_cursor {
-  color: #282828;
-  border: none !important;
-  background: rgba(40, 40, 40, .4);
+  color: #7c6f64;
 }
 
 .ace_marker-layer .ace_selection {
@@ -62,7 +52,7 @@ body {
 }
 
 .ace_fold {
-  background-color: #9d0006;
+  background-color: #076678;
   border-color: #282828;
 }
 
@@ -72,7 +62,7 @@ body {
 
 
 .ace_keyword {
-  color: #9d0006;
+  color: #076678;
 
 }
 
@@ -82,7 +72,7 @@ body {
 }
 
 .ace_constant {
-  color: #8f3f71;
+  color: #9d0006;
 
 }
 
@@ -117,7 +107,7 @@ body {
 }
 
 .ace_storage {
-  color: #9d0006;
+  color: #076678;
 
 }
 
@@ -165,7 +155,7 @@ body {
 
 }
 .nocolor.ace_editor .ace_line span {
-  color: #9d0006 !important;
+  color: #076678 !important;
 }
 .ace_bracket {
   margin: 0 !important;
@@ -223,7 +213,7 @@ body {
 }
 
 /* ! Black + DarkGrey */
-.xtermColor0 {color:  #fdf4c1 !important;}
+.xtermColor0 {color:  #282828 !important;}
 .xtermColor8 {color:  #928374 !important;}
 /* ! DarkRed + Red */
 .xtermColor1 {color:  #cc241d !important;}
@@ -263,10 +253,6 @@ body {
 .ace_layer.ace_marker-layer {
    z-index: 1;
 }
-
-
-
-
 
 /* background */
 .rstudio-themes-flat > .rstudio-themes-default,

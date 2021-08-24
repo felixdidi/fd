@@ -1,14 +1,6 @@
 /* rs-theme-name: Gruvbox Dark Custom */
 /* rs-theme-is-dark: TRUE */
 
-body {
-  font-family: Lucida Grande !important;
-}
-
-.pm-proportional-font {
-  font-family: "Garbata", serif !important;
-}
-
 img {
   filter: grayscale(100%) sepia(100%) hue-rotate(330deg) saturate(500%) brightness(.7) !important;
 }
@@ -49,14 +41,12 @@ filter: none !important;
 
 .ace_editor, .rstudio-themes-flat.ace_editor_theme .profvis-flamegraph, .rstudio-themes-flat.ace_editor_theme, .rstudio-themes-flat .ace_editor_theme {
   background-color: #1d2021;
-  color: #EBDBB2;
+  color: #d5c4a1;
   /* font-family: Fira Sans; */
 }
 
 .ace_cursor {
-  color: #fcf9e3;
-  border: none !important;
-  background: rgba(230, 212, 163, .4);
+  color: #a89984;
 }
 
 .ace_marker-layer .ace_selection {
@@ -90,7 +80,7 @@ filter: none !important;
 }
 
 .ace_fold {
-  background-color: #fb4934;
+  background-color: #83a598;
   border-color: rgba(253, 244, 193, 0.77);
 }
 
@@ -100,7 +90,7 @@ filter: none !important;
 
 
 .ace_keyword {
-  color: #fb4934;
+  color: #83a598;
 
 }
 
@@ -110,7 +100,7 @@ filter: none !important;
 }
 
 .ace_constant {
-  color: #d3869b;
+  color: #fb4934;
 
 }
 
@@ -120,7 +110,7 @@ filter: none !important;
 }
 
 .ace_constant.ace_other {
-  color: #fdf4c1;
+  color: #d5c4a1;
 
 }
 
@@ -145,12 +135,12 @@ filter: none !important;
 }
 
 .ace_storage {
-  color: #fb4934;
+  color: #83a598;
 
 }
 
 .ace_invalid {
-  color: #fdf4c1;
+  color: #d5c4a1;
   background-color: #932b1e;
 
 }
@@ -167,12 +157,12 @@ filter: none !important;
 }
 
 .ace_variable {
-  color: #fdf4c1;
+  color: #d5c4a1;
 
 }
 
 .ace_variable.ace_language {
-  color: #fdf4c1;
+  color: #d5c4a1;
 
 }
 
@@ -193,7 +183,7 @@ filter: none !important;
 
 }
 .nocolor.ace_editor .ace_line span {
-  color: #fb4934 !important;
+  color: #83a598 !important;
 }
 .ace_bracket {
   margin: 0 !important;
@@ -223,7 +213,7 @@ filter: none !important;
 
 .terminal {
   background-color: #1d2021;
-  color: #ebdbb2;
+  color: #d5c4a1;
   font-feature-settings: "liga" 0;
   position: relative;
   user-select: none;
@@ -255,8 +245,8 @@ filter: none !important;
 
 
 /* ! Black + DarkGrey */
-.xtermColor0 { color: #282828 !important;}
-.xtermColor8  { color: #928374 !important;}
+.xtermColor0 { color: #d5c4a1 !important;}
+.xtermColor8  { color: #d5c4a1 !important;}
 /* ! DarkRed + Red */
 .xtermColor1 {color: #cc241d !important;}
 .xtermColor9 {color: #fb4934 !important;}
@@ -277,7 +267,7 @@ filter: none !important;
 .xtermColor14 {color: #8ec07c !important;}
 /* ! LightGrey + White */
 .xtermColor7  {color: #a89984 !important;}
-.xtermColor15 {color: #ebdbb2 !important;}
+.xtermColor15 {color: #d5c4a1 !important;}
 
 .rstudio-themes-flat.editor_dark.ace_editor_theme a {
    color: #FFF !important;
@@ -371,7 +361,7 @@ filter: none !important;
 .rstudio-themes-dark .gwt-TabLayoutPanelTab:not(.gwt-TabLayoutPanelTab-selected) .rstheme_tabLayoutCenter,
 .rstudio-themes-dark .rstheme_minimizedWindowObject .rstheme_center {
   background-color: #3c3836 !important;
-  color: #EBDBB2 !important;
+  color: #d5c4a1 !important;
   border-color: #3c3836 !important;
   border-right: 1px solid #282828 !important;
   border-radius: 0;
@@ -387,7 +377,7 @@ filter: none !important;
 /* active tab */
 .rstudio-themes-dark .gwt-TabLayoutPanelTab.gwt-TabLayoutPanelTab-selected .rstheme_tabLayoutCenter {
   background-color: #1d2021 !important;
-  color: #EBDBB2 !important;
+  color: #d5c4a1 !important;
   font-size: 9pt !important;
   /* font-family: Fira Sans; */
 }
@@ -427,7 +417,7 @@ filter: none !important;
 .rstudio-themes-dark :-webkit-any(.rstheme_toolbarWrapper, #rstudio_find_replace_bar) .search,
 .rstudio-themes-flat .themedPopupPanel .search {
   background-color: #3c3836 !important;
-  color: #EBDBB2 !important;
+  color: #d5c4a1 !important;
   border-color: RGBA(254, 128, 25, .5) !important;
   /* font-family: Fira Sans; */
 }
@@ -478,7 +468,7 @@ filter: none !important;
 .rstudio-themes-flat .themedPopupPanel,
 .rstudio-themes-flat .popupMiddleCenter,
 .rstudio-themes-flat .menuPopupMiddleCenter {
-  color: #EBDBB2 !important;
+  color: #d5c4a1 !important;
   background-color: #3c3836 !important;
   border-color: rgb(69, 69, 69) !important;
   /* font-family: Fira Sans; */
@@ -503,45 +493,45 @@ filter: none !important;
 /* file names */
 
 .rstudio-themes-flat.editor_dark .ace_editor_theme .GGBOEFPDGI {
-    color: #EBDBB2 !important;
+    color: #d5c4a1 !important;
     /* font-family: Fira Sans; */
 }
 
 /* drop down menus */
 
 .rstudio-themes-flat .rstudio-themes-dark .GGBOEFPDLU, .rstudio-themes-flat .rstudio-themes-dark .GGBOEFPDLU button {
-    color: #EBDBB2 !important;
+    color: #d5c4a1 !important;
     /* font-family: Fira Sans; */
 }
 
 .rstudi-themes-flat:hover {
-  color: #EBDBB2 !important;
+  color: #d5c4a1 !important;
 }
 
 
 /* links */
 
 .rstudio-themes-flat .rstudio-themes-dark .breadcrumb table.GGBOEFPDJJ .rstudio-HyperlinkLabel {
-  color: #ebdbb2 !important;
+  color: #d5c4a1 !important;
 }
 
 /* checkbox */
 
 .rstudio-themes-flat .rstudio-themes-dark input[type="checkbox"] {
   background: #3c3836 !important;
-  color: #ebdbb2 !important;
+  color: #d5c4a1 !important;
 }
 
 
 /* bottom of editor */
 
 .rstudio-themes-flat .rstudio-themes-dark .GGBOEFPDL5C {
-  color: #ebdbb2 !important;
+  color: #d5c4a1 !important;
 }
 
 
 /* console top */
 
 .rstudio-themes-flat .rstudio-themes-dark .GGBOEFPDKU, .rstudio-themes-flat .rstudio-themes-dark .GGBOEFPDBU {
-  color: #ebdbb2 !important;
+  color: #d5c4a1 !important;
 }
