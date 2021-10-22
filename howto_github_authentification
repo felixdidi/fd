@@ -4,5 +4,5 @@ usethis::create_github_token()
 
 to register the token, use the function
 
-gitcreds::set()
+gitcreds::gitcreds_set()
 
