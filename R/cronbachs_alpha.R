@@ -40,5 +40,6 @@ cronbachs_alpha <- function(df, index_name, var_names) {
 
   purrr::map(tables, ~ insight::display(.x %>%
                                           dplyr::select(-caption),
-                                        caption = .x$caption))
+                                        caption = .x$caption,
+                                        zap_small = TRUE))
 }
